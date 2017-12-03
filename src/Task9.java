@@ -33,7 +33,7 @@ public class Task9 {
 			break;
 		case "/":
 			if (second != 0){
-				System.out.println("A / B = " + (first/second));
+				System.out.println("A / B = " + (first/(double)second));
 			} else {
 				System.out.println("ERROR! DIVISION ON ZERO!");
 			}
